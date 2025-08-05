@@ -1,0 +1,44 @@
+[
+  {
+    "id": "task-1",
+    "agent": "frontend-developer",
+    "description": "Create the HTML structure for the pong game",
+    "file_path": "public/index.html"
+  },
+  {
+    "id": "task-2",
+    "agent": "frontend-developer",
+    "description": "Create the CSS file for styling the pong game",
+    "file_path": "styles/game.css"
+  },
+  {
+    "id": "task-3",
+    "agent": "frontend-developer",
+    "description": "Write the JavaScript to handle the game logic",
+    "file_path": "scripts/game.js"
+  },
+  {
+    "id": "task-4",
+    "agent": "frontend-developer",
+    "description": "Write the JavaScript to handle keyboard input for player control",
+    "file_path": "scripts/input.js"
+  },
+  {
+    "id": "task-5",
+    "agent": "frontend-developer",
+    "description": "Write the JavaScript to handle the ball movement and collision detection",
+    "file_path": "scripts/ball.js"
+  },
+  {
+    "id": "task-6",
+    "agent": "frontend-developer",
+    "description": "Write the JavaScript to handle the paddle movement",
+    "file_path": "scripts/paddle.js"
+  },
+  {
+    "id": "task-7",
+    "agent": "frontend-developer",
+    "description": "Integrate all JavaScript components into the main game script",
+    "file_path": "scripts/main.js"
+  }
+]
