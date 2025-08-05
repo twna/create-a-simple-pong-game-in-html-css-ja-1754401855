@@ -1,0 +1,76 @@
+/* Style for the Pong game area */
+.game-area {
+  width: 600px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+/* Style for the paddles */
+.paddle {
+  width: 10px;
+  height: 70px;
+  background-color: white;
+  position: absolute;
+  /* Initial position - will be updated by JavaScript */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Style for the left paddle */
+.paddle-left {
+  left: 20px;
+}
+
+/* Style for the right paddle */
+.paddle-right {
+  right: 20px;
+}
+
+/* Style for the ball */
+.ball {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  /* Initial position - will be updated by JavaScript */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Optional: Style for the center line */
+.center-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: white;
+  /* Creates dashed line effect */
+  background-image: linear-gradient(white 50%, transparent 50%);
+  background-size: 2px 20px;
+}
+{
+  "checklist": [
+    {
+      "element": "game-area",
+      "description": "The main playing area for the Pong game."
+    },
+    {
+      "element": "paddle",
+      "description": "The paddles used by the players to hit the ball."
+    },
+    {
+      "element": "ball",
+      "description": "The ball that players hit back and forth."
+    },
+    {
+      "element": "center-line",
+      "description": "An optional dashed line down the center of the game area."
+    }
+  ]
+}
